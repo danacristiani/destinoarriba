@@ -6,7 +6,7 @@ var config = {
     default: "arcade",
     arcade: {
       gravity: { y: 380 },
-      debug: true,
+      debug: false,
     },
   },
   scene: [Carga, Final, Juego, PantallaInicial, muerta]
